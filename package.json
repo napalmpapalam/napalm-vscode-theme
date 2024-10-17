@@ -1,0 +1,21 @@
+{
+  "name": "napalm-vscode-theme",
+  "displayName": "Napalm Theme",
+  "description": "A minimalistic dark theme, mix of GitHub Dark UI theme and VSCode Dark+ theme syntax highlighting.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Napalm Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Napalm Theme-color-theme.json"
+      }
+    ]
+  }
+}
